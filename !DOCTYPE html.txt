@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Business Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            text-align: center;
+            color: #333;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .link {
+            display: block;
+            margin: 15px auto;
+            padding: 10px 20px;
+            background: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            width: 200px;
+        }
+        .link:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Business Links</h1>
+    </header>
+    <div class="container">
+        <p>Find all my businesses and services here:</p>
+        <!-- Add your business links below -->
+        <a href="https://your-business-link1.com" class="link" target="_blank">Business 1</a>
+        <a href="https://your-business-link2.com" class="link" target="_blank">Business 2</a>
+        <a href="https://your-business-link3.com" class="link" target="_blank">Business 3</a>
+        <a href="https://your-business-link4.com" class="link" target="_blank">Business 4</a>
+    </div>
+</body>
+</html>
